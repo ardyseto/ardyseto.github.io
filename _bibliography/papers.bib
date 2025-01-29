@@ -73,7 +73,7 @@
 
 @inproceedings{priambodo_design_2021,
   title={Design \& implementation of solar powered automatic weather station based on esp32 and gprs module},
-  author={Priambodo, AS and Nugroho, AP},
+  author={Priambodo, Ardy Seto and Nugroho, Andri Prima},
   abstract={The fundamental aim of this project is to develop a solar-powered automatic weather station (AWS), which can be accessed via the website. Users can find out the weather changes in an area without needing to come to the area and can do an analysis of irrigation water needs. This design uses ESP32 as main processor. The measure weather parameters include temperature and humidity using HDC1080 sensor, wind speed using an anemometer sensor, wind direction using a wind vane sensor, air pressure using BME280, rainfall using a tipping bucket sensor, and the last small solar panel for irradiance sensor. AWS has two working modes, normal and maintenance mode. During maintenance mode, sensor data will be displayed on a local website that can be accessed via a wifi network broadcasted by ESP32. In normal mode, the ESP32 will send sensor data to the cloud using SIM800L GPRS Module. The system proposed is also designed to have a feature to log sensor data locally in SD card. Watchdog timer circuit uses timer 555 implemented in this project for the recovery system from the failure process. Power sources are limited, so the system must be put into deep-sleep mode state when not processing data. Data transmission is carried out periodically with an interval of 5-6 minutes. Test results show that the sending of sensor data can be received by the cloud with an acceptance rate of up to 98%.},
   booktitle={Journal of physics: Conference series},
   volume={1737},
@@ -92,7 +92,7 @@
 
 @inproceedings{nasuha_real_2021,
   title={Real time emotion classification based on convolution neural network and facial feature},
-  author={Nasuha, A and Arifin, F and Priambodo, AS and Setiawan, N and Ahwan, N},
+  author={Nasuha, Aris and Arifin, Fatchul and Priambodo, Ardy Seto and Setiawan, Nurman and Ahwan, Noor},
   booktitle={Journal of Physics: Conference Series},
   abstract = {Health problems due to emotion disorder should not be taken lightly because they have worse effects on health. Emotion disorder leads to prolonged stress and causes mental fatigue. Therefore, emotions need to be classified as early as possible. This classification result can be utilized to determine a person's emotion and treatments required. In this paper, we proposed emotion classifier based on facial features. Here, we used Convolution Neural Network (CNN) to extract facial features from input images and classify them into 7 basic emotions: angry, sad, happy, neutral, fear, disgust, and surprise. Dept-wise separable convolution is applied, instead of the ordinary convolution in CNN, to reduce the number of trainable parameters so that the overall architecture of CNN can be made as simple as possible without compromising the accuracy. The simple architecture of the CNN allows us to make it work in real time. Our proposed method achieves an accuracy of 66\% on 3.589 input images of FER2013 data set.},
   volume={1737},
@@ -110,7 +110,7 @@
 
 @inproceedings{winursito_design_2021,
   title={Design of robust heart abnormality detection system based on wavelet denoising algorithm},
-  author={Winursito, A and Arifin, F and Nasuha, A and Priambodo, AS and others},
+  author={Winursito, Anggun and Arifin, Fatchul and Nasuha, Aris and Priambodo, Ardy Seto},
   booktitle={Journal of Physics: Conference Series},
   abstract = {The technology that continues to be developed by many researchers today is an automatic heart attack detection system based on an Electrocardiogram (ECG) signal. Several other studies have been carried out to build an Internet of Things (IoT) based heart abnormality detection system. Based on the analysis of related studies that have been carried out previously, several researchers have developed an ECG signal-based heart abnormality detection system using clean ECG signal data. While the reality of the concept of an IoT-based detection system, the process of recording ECG signal data on the sensor, the process of sending data to the server, and the process of retrieving data from the server are vulnerable to noise exposure. ECG signal containing noise will greatly affect the accuracy of system detection. This paper proposes the development of a noise-resistant heart condition detection system using a wavelet denoising algorithm. The process of denoising ECG signals using the Wavelet algorithm is generally able to improve the accuracy of detecting noisy ECG signals. The most significant increase in accuracy is seen in the low SNR value. The Daubechies 4 (db4) denoising algorithm is the best-performing algorithm. The ECG signal classification method uses the Artificial Neural Network (ANN) algorithm. Detection system hardware is also designed in this research using the concept based on the Internet of Things.},
   volume={2111},
@@ -129,7 +129,7 @@
 
 @inproceedings{arifin_smart_2021,
   title={Smart Air Filter Based on Activated Charcoal and Aloe Vera Using Fuzzy Logic Algorithm},
-  author={Arifin, F and Gusti, WR and Nasuha, A and Priambodo, AS and Winursito, A},
+  author={Arifin, Fatchul and Gusti, Wahyu Ramadhani and Nasuha, Aris and Priambodo, Ardy Seto and Winursito, Anggun},
   booktitle={Journal of Physics: Conference Series},
   abstract = {Smoking is one of the main risk factors of several chronic diseases such as lung cancer, upper respiratory tract cancer, heart disease, stroke, bronchitis, emphysema and others, even smoking can cause death. Cigarette smoke inhaled by passive smoking is the main cause of lung cancer in people who are not smokers. The risk of lung cancer increases by 20-30\% in non-smokers but always surrounded by cigarette smoke, compared to non-smokers who are not exposed to smoke. This study aims to develop a smart device to filter cigarette smoke so that the air released from this device is free from the dangers of cigarette smoke. The materials used in this device as a cigarette smoke filter are activated charcoal and aloe vera, the pores of the charcoal open and can become adsorbents. This device uses fuzzy logic as a control method that can provide decisions that resemble human decisions. Arduino is used to adjust the fan rotation in absorb cigarette smoke and the LCD to display the level of cigarette smoke.},
   volume={2111},
@@ -147,7 +147,7 @@
 
 @inproceedings{priambodo_face_2021,
   title={Face tracking for flying robot quadcopter based on haar cascade classifier and PID controller},
-  author={Priambodo, AS and Arifin, F and Nasuha, A and Winursito, A},
+  author={Priambodo, Ardy Seto and Arifin, Fatchul and Nasuha, Aris and Winursito, Anggun},
   abstract={The fundamental aim of this research is to develop a face detection system for a quadcopter in order to follow the face object. This research has two main stages, namely the face detection stage and the position control system. The face detection algorithm used in this research is the haar cascade method which is run using the python and OpenCV programming languages. The algorithm worked well, getting around 16fps on a low spec computer without a GPU unit. The results of the face detection algorithm are proven to be able to recognize faces from the camera installed on the DJI Tello mini drone. The mini drone was chosen because it is small and light, so it is harmless, and testing can be carried out indoors. Besides, the DJI Tello can be programmed easily using the python programming language. The drone's position is then compared with the set point in the middle of the image to obtain errors so that control signals can be calculated for up/down, forward/backward, and right/left movements. From the testing results, the response speed that occurs in the right/left and up/down movements is less than 2 seconds, while for the forward/backward movement, it is less than 3 seconds.},
   booktitle={Journal of Physics: Conference Series},
   volume={2111},
@@ -218,7 +218,7 @@
 
 @inproceedings{priambodo_vision_2022,
   title={A Vision and GPS Based System for Autonomous Precision Vertical Landing of UAV Quadcopter},
-  author={Priambodo, AS and Arifin, F and Nasuha, A and Winursito, A and others},
+  author={Priambodo, Ardy Seto and Arifin, Fatchul and Nasuha, Aris and Winursito, Anggun},
   abstract={This research aims to develop an algorithm for the precision vertical landing process on a quadcopter using GPS sensors and computer vision. This research consists of 2 main parts: GPS-based control used by the quadcopter to return to the home area and computer vision-based control in the form of ArUco marker detection, which is used by the quadcopter in order to land precisely. Detection of the ArUco marker that is used goes through 2 stages: the application of threshold and ratio and the process of calculating the black and white area, which can then be searched for four corners of the marker. The algorithm designed works well on the Webots simulation program with mid-computer specifications. The ArUco marker detection process is fast and reliable, so it does not overload the processor unit so that the simulation process can run well. From 30 tests with different initial positions, the average error of the landing position of the quadcopter at coordinate X is 0.02 meters, and coordinates Y is 0.03 meters. All test results show that the quadcopter can land inside the landing pad area without any parts coming out.},
   booktitle={Journal of Physics: Conference Series},
   volume={2406},
@@ -243,7 +243,7 @@
   abstract = {Artificial Potential Field (APF) is one of path planning strategies which offers a relatively low cost on computational. It has been implemented in many real-time applications. Unfortunately, it is quite susceptible to local minima problems. In this paper, we offer a scheme for escaping local minima by using vortex field. Based on the results and simulation, it can be verified that the vortex field prevails to navigate the path while escaping local minima.},
   booktitle = {Journal of {Physics}: {Conference} {Series}},
   publisher = {IOP Publishing},
-  author = {Nasuha, A and Priambodo, AS and Pratama, GNP},
+  author={Nasuha, Aris and Priambodo, Ardy Seto and Pratama, Gilang Nugraha Putu},
   year = {2022},
   note = {GSCC: 0000005 Issue: 1},
   pages = {012001},
@@ -298,7 +298,7 @@
 
 @inproceedings{pratama_modified_2023,
   title={A Modified Artificial Potential Field using Perpendicular Force for Leader-Follower System},
-  author={Pratama, Gilang NP and Jati, Mentari P and Priambodo, Ardy S and Dhewa, Oktaf A and Sony, Arya},
+  author={Pratama, Gilang Nugraha Putu and Jati, Mentari Putri and Priambodo, Ardy Seto and Dhewa, Oktaf Agni and Sony, Arya},
   doi = {10.1109/ICOIACT59844.2023.10455918},
 	abstract = {Artificial potential field (APF) is a path planning strategy that is widely used in robotics. Unfortunately, it is susceptible to local minima problems, especially on Symmetrically Aligned Robot-Obstacle-Goal (SAROG) configurations. In this paper, we propose a modified APF by introducing the perpendicular force for escaping the local minima. Furthermore, it is also being implemented for the leader-follower system. Here, the leader is assigned to reach the goal while avoiding obstacles. Simultaneously, the follower needs to track the leader while maintaining a safe distance. The effectiveness of our proposed method is verified by numerical simulations. The results show that the modified APF using perpendicular prevails in guiding the leader to reach the goal. At the same time, the follower can maintain a tolerated distance from the leader.},
   booktitle={2023 6th International Conference on Information and Communications Technology (ICOIACT)},
@@ -312,7 +312,7 @@
 
 @article{febrian_implementasi_2023,
   title={Implementasi Fuzzy Logic dengan sistem Visual Camera pada Robot Jetbot sebagai Line Follower},
-  author={Febrian, Yudha and Yahya, Rasyid Ammary and Dzaluli, M. Ibrah and Priambodo, Ardy Seto},
+  author={Febrian, Yudha and Yahya, Rasyid Ammary and Dzaluli, Muhamnmad Ibrah and Priambodo, Ardy Seto},
   journal={Electrician: Jurnal Rekayasa dan Teknologi Elektro},
   doi = {10.23960/elc.v17n3.2491},
 	abstract = {Aplikasi yang mengandalkan input visual untuk robot Jetbot yang mengikuti garis. Kamera berfungsi sebagai sensor utama, dan metode pemisahan gambar yang disesuaikan digunakan untuk memproses buffer gambar. Metode ini mengekstrak data yang diperlukan untuk pengontrol robot agar berfungsi dengan baik bahkan di lingkungan yang kurang cahaya. Robot ditugaskan untuk mengikuti jalur yang telah ditentukan sebelumnya pada permukaan lantai hitam yang ditandai dengan garis putih. Hasil percobaan menunjukkan keberhasilan navigasi robot di sepanjang jalur. Metode ini dapat diandalkan dan tangguh, serta mudah diadaptasi untuk digunakan dalam konteks lain, termasuk lingkungan industri yang biasanya menggunakan transduser dan sensor yang mahal. Dalam pengujian penelitian kami, kami berhasil mengamati peningkatan yang signifikan dalam perkembangan garis gerak robot dengan menggunakan teknik logika fuzzy dan pustaka OpenCV. Kami mencapai akurasi yang baik dan stabilitas yang terlihat dari gerakan robot. Teknologi logika fuzzy juga memiliki potensi untuk dikembangkan lebih lanjut dan diterapkan pada sistem kontrol otomatis lainnya. Pada penelitian ini, kami menggunakan bahasa pemrograman Python dan akses motor menggunakan kontroler logika fuzzy. Hasil dari penelitian ini menunjukkan bahwa penggunaan pendekatan kontroler logika fuzzy yang dikombinasikan dengan library OpenCV merupakan pilihan yang efektif untuk meningkatkan performa line-following robot pada Jetbot.},
@@ -473,9 +473,9 @@
   google_scholar_id={Zph67rFs4hoC}
 }
 
-@misc{priambodo_perancangan_thesis_2017,
+@misc{priambodo_perancangan_2017,
   title={Perancangan Sistem Kontrol PD untuk Stabilitas Terbang UAV Quadcopter},
-  author={Priambodo, Ardy},
+  author={Priambodo, Ardy Seto},
   year={2017},
   publisher={Fakultas Teknik. Universitas Gadjah Mada},
   google_scholar_id={ULOm3_A8WrAC}
