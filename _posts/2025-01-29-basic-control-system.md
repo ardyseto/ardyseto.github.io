@@ -5,11 +5,7 @@ date: 2025-01-29 01:59:00
 description: A comprehensive introduction to fundamental concepts in control systems engineering, covering open-loop and closed-loop systems, feedback mechanisms, PID controllers, and system stability analysis with practical examples.
 tags: control-system
 categories: courses
-tikzjax: true
-mermaid:
-  enabled: true
-  zoomable: true
-typograms: true
+mermaid: true
 ---
 
 Control systems engineering is a field of study that deals with the design and analysis of systems that regulate the behavior of other systems. These systems can range from simple mechanical devices to complex industrial processes and everything in between. Understanding the principles of control systems is essential for engineers working in various domains, including aerospace, automotive, robotics, and manufacturing.
