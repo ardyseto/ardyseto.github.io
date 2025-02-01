@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-introduction-to-basic-control-system",
+        },{id: "post-beautify-mac-terminal",
+      
+        title: "Beautify Mac Terminal",
+      
+      description: "A guide to enhancing your Mac terminal experience by setting up iTerm2 as a powerful terminal emulator, configuring Zsh shell with modern features, and customizing your prompt with Starship for improved productivity and visual appeal.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/beautify-mac-terminal/";
+        
+      },
+    },{id: "post-introduction-to-basic-control-system",
       
         title: "Introduction to Basic Control System",
       
