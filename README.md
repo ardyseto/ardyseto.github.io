@@ -1,4 +1,4 @@
-# al-folio-
+# al-folio
 
 <div align="center">
 
@@ -220,7 +220,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Table Of Contents
 
-- [al-folio-](#al-folio-)
+- [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
